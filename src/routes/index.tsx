@@ -12,7 +12,7 @@ export default function Home() {
         <a href="https://start.solidjs.com" target="_blank">
           start.solidjs.com
         </a>{" "}
-        to learn how to build SolidStart apps.
+        to learn how Thomas defeated the Mongoals!.
       </p>
     </main>
   );
