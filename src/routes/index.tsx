@@ -4,7 +4,7 @@ import Counter from "~/components/Counter";
 export default function Home() {
   return (
     <main>
-      <img src="mmmm, pupy!!!.jpg" alt="Flowers in Chania">
+      
       <Title>Thomas is amazing and can build websites now! Yeet.</Title>
       <h1>Thomas is amazing and can build websites now! Yeet.</h1>
       <Counter />
