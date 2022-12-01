@@ -7,8 +7,8 @@ export default function Home() {
       <Title>Thomas is amazing and can build websites now! Yeet.</Title>
       <h1>Thomas is amazing and can build websites now! Yeet.</h1>
       <Counter />
+      <img src="mmmm, pupy!!!.jpg" alt="Italian Trulli">
       <p>
-        <img src="mmmm, pupy!!!.jpg" alt="Italian Trulli">
         Visit{" "}
         <a href="https://github.com/toazthom/solid-quickstart/blob/main/mmmm%2C%20pupy!!!.jpg">
           start.solidjs.com
