@@ -9,7 +9,7 @@ export default function Home() {
       <Counter />
       <p>
         Visit{" "}
-        <a href="https://start.solidjs.com" target="_blank">
+        <a href="https://github.com/toazthom/solid-quickstart/blob/main/mmmm%2C%20pupy!!!.jpg">
           start.solidjs.com
         </a>{" "}
         to learn how Thomas defeated the Mongoals!.
