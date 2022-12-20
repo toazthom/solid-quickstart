@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <main>
       
-      <Title>Thomas is amazing and can build websites now! Yeet.</Title>
+      <Title>Paired Comparison Program</Title>
       <h1>Thomas is amazing and can build websites now! Yeet.</h1>
       <Counter />
       <p>
