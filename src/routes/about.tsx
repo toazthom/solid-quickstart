@@ -7,7 +7,7 @@ export default function Home() {
     <main>
       
       <Title>Paired Comparison Program</Title>
-      <h1>Thomas is amazing and can build websites now! Yeet.</h1>
+      <h1>Insert essays and their ID numbers here.</h1>
       <Counter />
       <p>
         Visit{" "}
