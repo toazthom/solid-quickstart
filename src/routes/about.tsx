@@ -46,15 +46,12 @@ export default function Home() {
       
       
       
-      <h2>HTML Forms</h2>
-
-      <form action="/action_page.php">
+      <form>
         <label for="fname">First name:</label><br>
-        <input type="text" id="fname" name="fname" value="John"><br>
+        <input type="text" id="fname" name="fname"><br>
         <label for="lname">Last name:</label><br>
-        <input type="text" id="lname" name="lname" value="Doe"><br><br>
-        <input type="submit" value="Submit">
-      </form> 
+        <input type="text" id="lname" name="lname">
+      </form>
       
     
     
