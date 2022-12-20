@@ -13,16 +13,7 @@ export default function Home() {
       <h1>Insert essays and their ID numbers here.</h1>
 
       
-      
-      table, th, td {
-        border:1px solid black;
-      }
-      </style>
-      <body>
-
-      <h2>A basic HTML table</h2>
-
-      <table style="width:100%">
+      <table>
         <tr>
           <th>Company</th>
           <th>Contact</th>
@@ -38,12 +29,8 @@ export default function Home() {
           <td>Francisco Chang</td>
           <td>Mexico</td>
         </tr>
-      </table>
+      </table>      
 
-      <p>To understand the example better, we have added borders to the table.</p>
-
-      </body>
-      </html>
 
       
     
