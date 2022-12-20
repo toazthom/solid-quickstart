@@ -3,26 +3,6 @@ import { Title } from "solid-start";
 import Counter from "~/components/Counter";
 
 
-export function MyComponent() {
-  const [_, { Form }] = createRouteAction(async (formData: FormData) => {
-    await new Promise((resolve, reject) => setTimeout(resolve, 1000));
-    const username = formData.get("username");
-    if (username === "admin") {
-      return redirect("/admin");
-    } else {
-      throw new Error("Invalid username");
-    }
-    return redirect("/home");
-  });
- 
-  return (
-    <Form>
-      <label for="username">Username:</label>
-      <input type="text" name="username" />
-      <input type="submit" value="submit" />
-    </Form>
-  );
-}
 
 
 export default function Home() {
@@ -31,6 +11,43 @@ export default function Home() {
       
       <Title>Paired Comparison Program</Title>
       <h1>Insert essays and their ID numbers here.</h1>
+
+      
+      
+      table, th, td {
+        border:1px solid black;
+      }
+      </style>
+      <body>
+
+      <h2>A basic HTML table</h2>
+
+      <table style="width:100%">
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+      </table>
+
+      <p>To understand the example better, we have added borders to the table.</p>
+
+      </body>
+      </html>
+
+      
+    
+    
       <Counter />
       <p>
         Visit{" "}
