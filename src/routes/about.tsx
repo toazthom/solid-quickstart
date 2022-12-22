@@ -15,7 +15,7 @@ export default function Home() {
       
 
       <form>
-        <input type="text" id="fname" name="fname"><br>
+        <input type="text" id="fname" name="fname">
 
       </form>      
       
