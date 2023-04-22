@@ -29,7 +29,6 @@ name=”EmailForm”>
 
 <input type="submit" value="Send">
 </form>
-      <Counter />
       <p>
         Visit{" "}
         <a href="https://github.com/toazthom/solid-quickstart/blob/main/mmmm%2C%20pupy!!!.jpg">
